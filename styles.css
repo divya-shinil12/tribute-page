@@ -1,0 +1,85 @@
+html, body {
+        height: 100%;
+        padding: 0px;
+        margin: 0px;    
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: FFFFFF;
+  width: 100%;
+  font-family: "Sans-serif";
+}
+
+main{
+  position: absolute;
+  background-color: #DBDFDC;
+  width: auto;
+  border-radius: 5px;
+  justify-content: center;
+  padding: 10px;
+}
+
+#title, main p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-div
+{  
+  display: flex;
+  width: 85%;
+  background-color: #FFFFFF;
+  margin-left: 80px;  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+img{ 
+  justify-content: center;
+  align-items: center;
+}
+
+#image{
+  margin: 0 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  margin-top: 700px;  
+}
+
+#tribute-info{
+  margin: 0 60px 0 60px;
+  justify-content: center;
+  text-align: center;
+}
+
+#img-caption{
+  text-align: center;
+  padding: 20px;
+}
+
+#tribute-info ul{
+  padding: 20px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#tribute-info ul li{
+  padding: 20px;
+}
+
+#quote{
+  margin: 0 20% 0 20%;
+  justify-content: center;
+  text-align: left;
+}
